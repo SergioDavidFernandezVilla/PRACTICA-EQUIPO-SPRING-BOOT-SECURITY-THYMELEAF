@@ -12,8 +12,8 @@
 
   # Variables de entorno necesarias
   env = {
-    JAVA_HOME = "${pkgs.jdk21}/lib/openjdk"; # Establecer la variable JAVA_HOME
-    PATH = "${pkgs.maven}/bin:${pkgs.git}/bin:${pkgs.jdk21}/bin:$PATH"; # Incluir herramientas en el PATH
+     # Establecer la variable JAVA_HOME
+    # Incluir herramientas en el PATH
   };
 
   idx = {
